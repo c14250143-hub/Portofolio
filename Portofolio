@@ -1,18 +1,26 @@
-Jadi berdasarkan waktu pelajaran Data analytic essential yang saya dapatkan adalah saya dapat mengetahui apa itu data sesungguhnya 
-berdasarkan dari penjelasan dosen bapak Resmana, data adalah sebuah istilah berhubungan dengan algoritma huruf atau numerical 
-bisa yang berhubungan dengan isi dokumen-dokumen yang penting seperti tentang laporan keuangan, stastic penjualan, urusan perkantoran, dan masih banyak lagi. 
-setelah penjelasan tentang apa itu data, pak resmana menjelaskan tentang apa itu data analytic, 
-dari yang saya tangkap dari penjelasan beliau tentang data analytic, data analytic itu adalah analisis data yang berhubungan
-dengan data bisnis dengan menggunakan matematika, statistika, dan computer software
-kemudian Pak Resmana juga menjelaskan proses data analisis, yaitu dimulai dari:
-1. memahami masalah dan mencoba untuk menentukan hasil
-2. mengumpulkan data yang ada
-3. mempersiapkan data yang sudah dikumpulkan
-4. lakukan sebuah analisis dan penambangan data
-5. menginterprestasikan hasil data tersebut
-6. presentasikan data yang sudah dikelola
-setelah mengenalkan sebuah proses data analasis, Pak Resmana juga menjeleskan jenis jenis data analisis
-1. analisis deskripsi    : yang dimana jenis analisis ini untuk mengenalisis tentang apa yang sebenarnya terjadi?
-2. analisis diagnosis    : yang dimana jenis analisis ini untuk mengenalisis tentang bagaimana itu bisa terjadi?
-3. analisis prediksi     : yang dimana jenis analisis ini untuk mengenalisis tentang apa yang bakalan terjadi selanjutunya?
-4. analisis presprective : yang dimana jenis analisis ini untuk mengenalisis tentang apa yang bisa diselesaikan?
+Data Analytics Essential: Ringkasan Hari 1
+---
+
+## 🧠 Informasi Dasar
+
+Berdasarkan penjelasan Bapak Resmana, **data** adalah kumpulan algoritma berupa huruf atau numerik yang berhubungan dengan isi dokumen penting. Ini bisa mencakup laporan keuangan, statistik penjualan, urusan perkantoran, dan masih banyak lagi.
+
+Selanjutnya, Bapak Resmana menjelaskan bahwa **data analytics** adalah proses analisis data bisnis menggunakan matematika, statistika, dan *software* komputer.
+
+## 💡 Proses
+
+Proses analisis data terbagi menjadi enam langkah:
+1.  **Memahami masalah:** Mengidentifikasi isu dan mencoba menentukan hasil yang diinginkan.
+2.  **Mengumpulkan data:** Mengumpulkan data yang relevan.
+3.  **Mempersiapkan data:** Menyiapkan data yang sudah dikumpulkan agar siap dianalisis.
+4.  **Menganalisis dan menambang data:** Melakukan analisis dan penambangan data.
+5.  **Menginterpretasikan hasil:** Menafsirkan hasil dari analisis yang telah dilakukan.
+6.  **Mempresentasikan data:** Menyajikan data yang sudah diolah.
+
+## 📊 Jenis-jenis Analisis Data
+
+Bapak Resmana juga memperkenalkan empat jenis analisis data:
+1.  **Analisis Deskriptif:** Menjelaskan "apa yang sebenarnya terjadi?"
+2.  **Analisis Diagnostik:** Menjelaskan "bagaimana itu bisa terjadi?"
+3.  **Analisis Prediktif:** Menjelaskan "apa yang akan terjadi selanjutnya?"
+4.  **Analisis Preskriptif:** Menjelaskan "apa yang bisa dilakukan untuk menyelesaikan masalah?"
