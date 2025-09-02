@@ -1,6 +1,13 @@
 
 
-✅ Contoh Kode di Colab
+📝 Ringkasan Metode IQR
+
+- Hitung kuartil 1 (Q1) dan kuartil 3 (Q3).
+- Cari IQR = Q3 − Q1.
+- Tentukan batas bawah = Q1 − 1.5 × IQR dan batas atas = Q3 + 1.5 × IQR.
+- Data di luar batas dianggap outlier, lalu dihapus.
+
+✅ kodingan
 -------------------------------------------------------------------------
 import pandas as pd
 import matplotlib.pyplot as plt
