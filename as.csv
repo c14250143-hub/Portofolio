@@ -1,0 +1,38 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://github.com/c14250143-hub/Portofolio/blob/main/TGM%202020-2023-eng.csv", sep=";", decimal=",")
+
+print(df.info())
+print(df.describe())
+
+def remove_outliers_iqr(data, column):
+    Q1 = data[column].quantile(0.25)
+    Q3 = data[column].quantile(0.75)
+    IQR = Q3 - Q1
+
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+
+    cleaned_data = data[(data[column] >= lower_bound) & (data[column] <= upper_bound)]
+    return cleaned_data, lower_bound, upper_bound
+
+col = "Daily Reading Duration (in minutes)"
+
+plt.figure(figsize=(12,5))
+
+plt.subplot(1,2,1)
+plt.hist(df[col], bins=20, color="skyblue", edgecolor="black")
+plt.title(f"Before Outlier Removal: {col}")
+
+df_cleaned, low, up = remove_outliers_iqr(df, col)
+
+plt.subplot(1,2,2)
+plt.hist(df_cleaned[col], bins=20, color="lightgreen", edgecolor="black")
+plt.title(f"After Outlier Removal: {col}")
+
+plt.tight_layout()
+plt.show()
+
+print(f"Range batas IQR untuk {col}: {low:.2f} – {up:.2f}")
+print(f"Jumlah data awal: {len(df)}, setelah bersih: {len(df_cleaned)}")
