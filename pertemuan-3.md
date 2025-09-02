@@ -5,10 +5,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 1. Baca dataset
+# 1. Baca dataset 📊
 df = pd.read_csv("/content/sample_data/TGM 2020-2023-eng.csv", sep=";", decimal=",")
 
-# 2. Lihat ringkasan data
+# 2. Lihat ringkasan data 🔎
 print(df.info())
 print(df.describe())
 
