@@ -1,5 +1,6 @@
-Analisis Data Eksplorasi Titanic 🚢
-Berikut adalah analisis dari data eksplorasi (EDA) yang dilakukan pada dataset Titanic. Analisis ini membantu kita memahami karakteristik utama dari para penumpang yang ada. 🕵️‍♀️
+## Analisis Data Eksplorasi Titanic 🚢
+--------------------------------------------
+Analisis ini membantu kita memahami karakteristik utama dari para penumpang yang ada. 🕵️‍♀️
 
 Analisis Utama Berdasarkan Kode 💻
 Struktur dan Tampilan Data 📊
@@ -11,6 +12,7 @@ Penggunaan head() dan tail() memberikan gambaran awal data, seperti kolom-kolom 
 titanic.info() menunjukkan struktur data, termasuk 891 baris dan 15 kolom. Ini juga mengungkapkan adanya nilai yang hilang (Age, deck, embarked, embark_town). 🧐
 
 Statistik Deskriptif 📈
+-------------------------------------
 
 Fungsi titanic.describe() memberikan ringkasan statistik untuk kolom numerik.
 
@@ -25,6 +27,7 @@ Analisis titanic.isnull().sum() mengonfirmasi bahwa kolom Age dan deck memiliki 
 Kolom deck adalah yang paling parah, dengan 688 nilai yang hilang dari total 891. 🗑️
 
 Analisis Visual 🖼️
+-------------------------------------
 
 Distribusi Usia: Histogram menunjukkan bahwa mayoritas penumpang berada dalam rentang usia 20-an hingga 30-an. 🧑
 
@@ -33,6 +36,7 @@ Distribusi Tarif: Sebagian besar tiket dijual dengan harga murah, dengan beberap
 Jumlah Penumpang per Kelas: Bar plot menunjukkan bahwa Kelas 3 adalah kelas dengan jumlah penumpang terbanyak. 🎫
 
 Analisis Bertahan Hidup: 🆘
+----------------------------------
 
 Bar plot menunjukkan bahwa lebih banyak penumpang yang tidak selamat daripada yang selamat.
 
@@ -41,6 +45,7 @@ Analisis survived berdasarkan sex adalah temuan paling penting: wanita memiliki 
 Penumpang Kelas 1 juga memiliki tingkat kelangsungan hidup tertinggi. 🥇
 
 Kesimpulan dan Temuan Kunci 🌟
+------------------------------------------------------------------------------
 Analisis ini memberikan wawasan yang kuat tentang dataset Titanic. Beberapa temuan paling signifikan meliputi:
 
 Tingkat kelangsungan hidup wanita jauh lebih tinggi daripada pria. 👩‍🔬
