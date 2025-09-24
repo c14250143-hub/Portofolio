@@ -1,7 +1,3 @@
-Tentu\! Berikut adalah analisis data dan penjelasan kode Python yang disajikan dalam format file Markdown (`.md`) yang menarik.
-
------
-
 ### 📊 Analisis Data Profil TikTok: Lebih Dalam Mengenai Statistik dan Engagement\! ✨
 
 [cite\_start]Analisis ini didasarkan pada file **TikTok profiles dataset (Public web data).csv** yang Anda unggah[cite: 1]. Kami akan menelusuri data untuk mengungkap wawasan tentang profil-profil TikTok yang ada, mulai dari jumlah pengikut hingga tingkat engagement mereka.
